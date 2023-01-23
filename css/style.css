@@ -1,0 +1,49 @@
+
+/**** TAGS ****/
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #0e0f0f url('../img/background.jpg');
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+video {
+  box-shadow: 0 0 1px 3px rgba(0,0,0,0.1);
+  width: 785px;
+}
+
+/**** BLOCKS ****/
+
+.wrapper {
+  width: 850px;
+  display: flex;
+}
+
+/**** ELEMENTS ****/
+
+.wrapper__speed-container {
+  background: #efefef;
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  margin: 10px;
+  box-shadow: 0 0 1px 3px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.wrapper__speed-container .wrapper__speed-bar {
+  width: 100%;
+  background: linear-gradient(-170deg, #0e0f0f 0%, #715476 100%);
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  color: white;
+  height: 10%;
+}
